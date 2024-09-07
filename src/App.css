@@ -1,0 +1,48 @@
+/* src/App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.user-list {
+  text-align: left;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.user-list h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.user-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.user-list li {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 10px 0;
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.user-list li h2 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.user-list li p {
+  margin: 5px 0;
+}
